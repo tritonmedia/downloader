@@ -1,12 +1,16 @@
 {
+  "name": "triton-downloader",
+  "version": "1.0.0",
+  "description": "Media downloader service",
+  "main": "index.js",
+  "repository": "git@github.com:tritonmedia/downloader",
+  "author": "Jared Allard <jaredallard@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
     "async": "^2.6.1",
-    "eslint": "^5.11.1",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^8.0.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
     "file-uri-to-path": "^1.0.0",
     "fs-extra": "^7.0.1",
     "ioredis": "^4.3.0",
@@ -20,5 +24,18 @@
     "request-promise-native": "^1.0.5",
     "triton-core": "^1.2.0",
     "webtorrent": "^0.103.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "chai": "^4.1.2",
+    "eslint": "^4.0.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0",
+    "mocha-eslint": "^4.1.0"
   }
 }
