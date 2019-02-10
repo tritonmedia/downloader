@@ -2539,7 +2539,7 @@ pino-std-serializers@^2.3.0:
   resolved "https://registry.yarnpkg.com/pino-std-serializers/-/pino-std-serializers-2.3.0.tgz#34eeaab97c055c28e22c0542ae55978e7e427786"
   integrity sha512-klfGoOsP6sJH7ON796G4xoUSx2fkpFgKHO4YVVO2zmz31jR+etzc/QzGJILaOIiCD6HTCFgkPx+XN8nk+ruqPw==
 
-pino@^5.10.6:
+pino@^5.10.6, pino@^5.11.1:
   version "5.11.1"
   resolved "https://registry.yarnpkg.com/pino/-/pino-5.11.1.tgz#2d6d8edb7ebc7c354be03bfa04fd436352e1d67b"
   integrity sha512-NIua0mGb9Adknq35ONvQmvh93LCUVUjp2+1q1EcvIkJmpJnSd3E5rHVKlKNjzMXFl/z3fI+QA0xXCjPEKNiLvQ==
@@ -3568,9 +3568,9 @@ trim-right@^1.0.1:
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
 triton-core@^1.2.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/triton-core/-/triton-core-1.3.0.tgz#714f5a76404a9b844cbcb4a34031828bbe554df5"
-  integrity sha512-raoqe6stn+gu17sZtGfalqh/NqA6wPd91f7wahvAJmtezzbstV3QtihL5DTNXTvkYdetUrfx4TUNlMm04Y0Xzw==
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/triton-core/-/triton-core-1.4.4.tgz#faef8cffaa8d8d7f7559923a76d3ad2a244b8565"
+  integrity sha512-29dFleSUp7fq6RDEfmfL2YyC5zb2eJ8VmpTfg0b27X6OiHVn8rQ+EVRpPb3UbzH8l+OjsSdN9vNVBNiyrY5QPA==
   dependencies:
     debug "^3.1.0"
     fs-extra "^5.0.0"
@@ -3578,6 +3578,7 @@ triton-core@^1.2.0:
     js-yaml "^3.11.0"
     lodash "^4.17.5"
     opentracing "^0.14.3"
+    pino "^5.11.1"
     systeminformation "^3.37.7"
 
 tunnel-agent@^0.6.0:
