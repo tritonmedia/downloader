@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "async": "^2.6.1",
+    "eslint": "^5.11.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "file-uri-to-path": "^1.0.0",
+    "fs-extra": "^7.0.1",
+    "ioredis": "^4.3.0",
+    "klaw": "^3.0.0",
+    "kue": "^0.11.6",
+    "lodash": "^4.17.11",
+    "minio": "^7.0.2",
+    "node-ffprobe": "^1.2.2",
+    "pino": "^5.10.6",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "triton-core": "^1.2.0",
+    "webtorrent": "^0.103.0"
+  }
+}
