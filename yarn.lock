@@ -2153,7 +2153,7 @@ minimist@^1.1.0, minimist@^1.1.1:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
   integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
 
-minio@^7.0.2:
+minio@^7.0.5:
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/minio/-/minio-7.0.5.tgz#2f726036f004e6441799cea8e923a6a3835715f2"
   integrity sha512-8ElURLlaiV1sGCE5fn9V7zhqYnvfUsntwg6lCR3OPzShak35dpCRKZFY3kdA7B1faTMGdN9jFMMIJ5jdWGEw4g==
@@ -3568,15 +3568,16 @@ trim-right@^1.0.1:
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
 triton-core@^1.2.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/triton-core/-/triton-core-1.5.0.tgz#2a377df5236e022a18f921136c0f5326c480a8f1"
-  integrity sha512-cbhLSGHmDCYrfq3ZCiL5r/aU6n/FIkABpczfs9HeOXA+MIR8FzBHyVd6ofhbS/Qp+ocZ8qvr3m9fbbLJK1Qx/A==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/triton-core/-/triton-core-1.5.1.tgz#6aa61306f97747f49386d32ac0f8d41d9c06275c"
+  integrity sha512-aZ6W8oS++6a4nPQavNCUq1V7JlTlp8HYr2znZ5Z0yIkszTdd2kBHRGau5kruH8Qu+P7aadIMDIek3OL5U6MGXA==
   dependencies:
     debug "^3.1.0"
     fs-extra "^5.0.0"
     jaeger-client "^3.13.0"
     js-yaml "^3.11.0"
     lodash "^4.17.5"
+    minio "^7.0.5"
     opentracing "^0.14.3"
     pino "^5.11.1"
     systeminformation "^3.37.7"
