@@ -52,12 +52,7 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.0.0", "@babel/parser@^7.4.4":
-  version "7.4.5"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.4.5.tgz#04af8d5d5a2b044a2a1bffacc1e5e6673544e872"
-  integrity sha512-9mUqkL1FF5T7f0WDFfAoDdiMVPWsdD1gZYzSnaXsxUCUqzuch/8of9G3VUSNiZmMBoRxT3neyVsqeiL/ZPcjew==
-
-"@babel/parser@^7.5.0":
+"@babel/parser@^7.0.0", "@babel/parser@^7.4.4", "@babel/parser@^7.5.0":
   version "7.5.0"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.5.0.tgz#3e0713dff89ad6ae37faec3b29dcfc5c979770b7"
   integrity sha512-I5nW8AhGpOXGCCNYGc+p7ExQIBxRFnS2fd/d862bNOKvmoEPjYPcfIjsfdy0ujagYOIYPczKgD9l3FsgTkAzKA==
@@ -3346,9 +3341,9 @@ trim-right@^1.0.1:
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
 triton-core@^1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/triton-core/-/triton-core-1.10.0.tgz#e90d3f9b1288631195197035789fde92aca4928c"
-  integrity sha512-Isa5feyXfRjVPQFj1WVSOjct6k33qB3d031Enx+7gop09+auuN5S3WNBIg3dsTxpDxpUfNIAcv/h4VNZwBjDPg==
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/triton-core/-/triton-core-1.10.1.tgz#9ba1fd83d8c0811d0ceb29004ec78585a29e81ff"
+  integrity sha512-VJZgVATh1gxF73DIKcNG/3cirAvRTYqeqmbqqRFypzkpQxJVUAK+PcAHnKZN/8unJAlX4z/Xj/ql/lo5/idkLg==
   dependencies:
     amqp-connection-manager "^3.0.0"
     amqplib "^0.5.3"
