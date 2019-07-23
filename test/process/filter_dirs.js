@@ -59,4 +59,24 @@ describe('process()', () => {
     assert.strictEqual(res.files.length, 1)
     assert.strictEqual(res.files[0], path.join(__dirname, baseDir, 'Some Movie Dir/Your Name.mkv'))
   })
+
+  it('should real with top level dir', async () => {
+    const mediaProto = await proto.load('api.Media')
+
+    const mediaObj = {
+      id: '<uuid>',
+      type: proto.stringToEnum(mediaProto, 'MediaType', 'TV')
+    }
+
+    const baseDir = 'filter_dirs/should_read_with_top_level_dir'
+    const res = await processor({
+      lastStage: {
+        // Test directory
+        path: path.join(__dirname, baseDir)
+      },
+      media: mediaObj
+    })
+    assert.strictEqual(res.files.length, 1)
+    assert.strictEqual(res.files[0], path.join(__dirname, baseDir, 'Some Movie Dir/Your Name.mkv'))
+  })
 })
