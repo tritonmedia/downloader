@@ -7,7 +7,7 @@
   "author": "Jared Allard <jaredallard@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test/*.js test/**/*.js"
   },
   "dependencies": {
     "express": "^4.17.1",
