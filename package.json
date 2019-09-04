@@ -19,7 +19,7 @@
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
     "triton-core": "^1.19.0",
-    "webtorrent": "^0.105.0"
+    "webtorrent": "^0.107.6"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
