@@ -2,11 +2,11 @@ local circle = import 'circle.libsonnet';
 
 circle.ServiceConfig('downloader') {
   jobs+: {
-    tests+: circle.Job(dockerImage='jaredallard/triton-base', withDocker=false) {
+    tests: circle.Job(dockerImage='jaredallard/triton-base', withDocker=false) {
       steps_+:: [
-        { restore_cache: { key: 'yarn-{{ checksum "package.json" }}' } },
+        circle.RestoreCacheStep('yarn-{{ checksum "package.json" }}'),
         circle.RunStep('Fetch Dependencies', 'yarn --frozen-lockfile'),
-        { save_cache: { key: 'yarn-{{ checksum "package.json" }}', paths: ['node_modules'] } },
+        circle.SaveCacheStep('yarn-{{ checksum "package.json" }}', ['node_modules']),
         circle.RunStep('Run Tests', 'yarn test')
       ],
     },
