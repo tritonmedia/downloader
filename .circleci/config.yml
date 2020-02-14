@@ -16,7 +16,7 @@ jobs:
         name: Publish "tritonmedia/downloader" Docker Image
   tests:
     docker:
-    - image: jaredallard/triton-base
+    - image: tritonmedia/base
     steps:
     - checkout
     - restore_cache:

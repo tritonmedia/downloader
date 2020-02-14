@@ -2,7 +2,7 @@ local circle = import 'circle.libsonnet';
 
 circle.ServiceConfig('downloader') {
   jobs+: {
-    tests: circle.Job(dockerImage='jaredallard/triton-base', withDocker=false) {
+    tests: circle.Job(dockerImage='tritonmedia/base', withDocker=false) {
       steps_+:: [
         circle.RestoreCacheStep('yarn-{{ checksum "package.json" }}'),
         circle.RunStep('Fetch Dependencies', 'yarn --frozen-lockfile'),
